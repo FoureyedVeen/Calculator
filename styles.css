@@ -3,6 +3,7 @@
     width: auto;
     height: 850px;
     border-radius: 10px;
+    padding-top: 10px;
 }
 
 .calculator {
@@ -12,6 +13,7 @@
     margin-left: 300px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .display-screen {
@@ -24,20 +26,46 @@
     border-radius: 10px;
     font-size: 50px;
 }
+.button-pad {
+    background-color: yellow;
+    width: 100px;
+}
 .first-row {
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: space-between;
     padding-top: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .second-row {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 40px;
 } 
+
+.third-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+} 
+
+.fourth-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.fifth-row {
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 50px;
+}
+
+.zero {
+    flex-grow: 2;
+}
 
 input[type=button] {
     width: 150px;
