@@ -38,11 +38,13 @@ button {
     display: flex; 
     justify-content: space-around;  
 }
+.button {
+    color: bisque;
+}
 .first-row {
     display: flex;
     padding-top: 30px; 
     margin-top: 40px; 
-    color: blue;
 } 
 
 .second-row {
