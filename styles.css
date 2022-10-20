@@ -20,7 +20,7 @@
     background-color: white;
     width: 660px;
     height: 100px;
-    margin-left: 20px;
+    margin-left: 18px;
     margin-right: 20px;
     margin-top: 30px;
     border-radius: 10px;
@@ -34,51 +34,40 @@
 button {
     width: 100px;
     font-size: 30px;
-    /* display: flex; */
-    /* justify-content: space-around; */
-    margin-left: 50px;
-
+    margin-left: 60px;
+    display: flex; 
+    justify-content: space-around;  
 }
 .first-row {
-    /* background-color: aqua; */
-    justify-content: center;
-    align-items: space-between;
-    padding-top: 30px;
-    margin-top: 40px;
+    display: flex;
+    padding-top: 30px; 
+    margin-top: 40px; 
+    color: blue;
 } 
 
 .second-row {
     display: flex;
-    justify-content: center;
-    margin-top: 40px;
+    margin-top: 50px;
 } 
 
 .third-row {
     display: flex;
-    justify-content: center;
-    margin-top: 40px;
+    margin-top: 50px;
 } 
 
 .fourth-row {
     display: flex;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-.fifth-row {
-    /* display: flex; */
-    /* justify-content: center; */
     margin-top: 50px;
 }
 
-.zero {
-    /* flex-grow: 1; */
-    margin-right: 20px;
-    
+.fifth-row {
+    display: flex; 
+    margin-top: 50px;
 }
 
-input[type=button] {
-    width: 150px;
-    margin-left: 15px;     
-    min-height: 50px;
-}
+/* .zero { */
+    /* flex-grow: 1; */
+    /* margin-right: 20px;
+    
+} */ 
+
