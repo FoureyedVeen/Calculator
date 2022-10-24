@@ -1,7 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .background {
     background-color: grey;
     width: 100%;
-    height: 850px;
+    /* height: 850px; */
     border-radius: 10px;
     padding-top: 10px;
 }
@@ -17,6 +21,7 @@
 @media (min-width: 300px) {
         .background {
          font-size: 80%; 
+         background-color: yellow;
         }
         .calculator {
             width: 30%;
@@ -24,10 +29,12 @@
     
      }
 .calculator {
-    background-color: green;
-    width: 700px;
+    background-color: black;
+    width: 80%;
     height: 700px;
-    margin-left: 300px;
+    /* margin-left: 300px; */
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -35,10 +42,10 @@
 
 .display-screen {
     background-color: white;
-    width: 660px;
+    width: 80%;
     height: 100px;
-    margin-left: 18px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
     border-radius: 10px;
     font-size: 50px;
@@ -54,7 +61,9 @@ button {
     font-size: 30px;
     margin-left: 60px;
     display: flex; 
-    justify-content: space-around;  
+    justify-content: space-around; 
+    color: white; 
+    background-color: black;
 }
 .button {
     color: bisque;
@@ -83,9 +92,13 @@ button {
 .fifth-row {
     display: flex; 
     margin-top: 50px;
+    justify-content: space-between;
 }
 
-/* .zero { */
-    /* flex-grow: 1; */
-    /* margin-right: 20px;  
- */
+.zero-btn {
+    width: 50px;
+}
+
+.equality-btn {
+    margin-right: 60px;
+}
