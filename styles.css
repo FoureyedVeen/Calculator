@@ -64,36 +64,43 @@
 
 button {
     width: 100px;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 60px;
     display: flex; 
     justify-content: space-around; 
     color: white; 
     background-color: black;
+    border-style: none;
 }
+
+button:hover {
+    background-color: grey;
+}
+
 .button {
     color: bisque;
 }
+
 .first-row {
     display: flex;
     padding-top: 30px; 
     margin-top: 40px; 
 } 
 
-.second-row {
+.second-row , .third-row , .fourth-row {
     display: flex;
     margin-top: 50px;
 } 
-
+/* 
 .third-row {
     display: flex;
     margin-top: 50px;
-} 
-
+}  */
+/* 
 .fourth-row {
     display: flex;
     margin-top: 50px;
-}
+} */
 
 .fifth-row {
     display: flex; 
