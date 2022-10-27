@@ -11,6 +11,11 @@ const seven = document.getElementById("seven");
 const eight = document.getElementById("eight");
 const nine = document.getElementById("nine");
 const four = document.getElementById("four");
+const five = document.getElementById("five");
+const six = document.getElementById("six");
+const one = document.getElementById("one");
+const two = document.getElementById("two");
+const three = document.getElementById("three");
 
 seven.addEventListener("click", function(){
     let currValue = displayScreen.value; 
