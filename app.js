@@ -10,6 +10,7 @@ const plus = document.getElementById("plus");
 const seven = document.getElementById("seven");
 const eight = document.getElementById("eight");
 const nine = document.getElementById("nine");
+const four = document.getElementById("four");
 
 seven.addEventListener("click", function(){
     let currValue = displayScreen.value; 
@@ -37,4 +38,4 @@ equalTo.addEventListener("click", function(){
     let currValue = displayScreen.value;
     displayScreen.value += "="+result;
     //console.log(result);
-})
+});
