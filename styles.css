@@ -5,7 +5,7 @@
 .background {
     background-color: grey;
     width: 100%;
-    /* height: 850px; */
+    height: 100vh;
     border-radius: 10px;
     padding-top: 10px;
 }
@@ -28,17 +28,37 @@
         }
     
      }
+
+.btn{
+    width: 25%;
+    font-size: 1.5rem;
+    /* margin-left: 60px; */
+    display: flex; 
+    justify-content: space-around; 
+    color: white; 
+    background-color: black;
+    border-style: none;
+}
+
+.btn:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.btn-bisque{
+    color: bisque;
+}
 .calculator {
     background-color: black;
     width: 50%;
-    height: 700px;
+    /* height: 700px; */
     /* margin-left: 300px; */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 10px;
-    padding-top: 20px;
+    padding: 20px 0px;
 }
 
 .display-screen {
@@ -47,7 +67,7 @@
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     border-radius: 10px;
     font-size: 50px;
     display: flex;
@@ -59,27 +79,11 @@
     display: flex;
     flex-direction: column;
     width: 80%;
-    padding-right: 5%;
+    /* padding-right: 5%; */
 } 
 
-button {
-    width: 100px;
-    font-size: 40px;
-    margin-left: 60px;
-    display: flex; 
-    justify-content: space-around; 
-    color: white; 
-    background-color: black;
-    border-style: none;
-}
 
-button:hover {
-    background-color: grey;
-}
 
-.button {
-    color: bisque;
-}
 
 .first-row {
     display: flex;

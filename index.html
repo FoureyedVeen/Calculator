@@ -10,38 +10,39 @@
 <body>
     <div class="background">
         <div class="calculator">
-            <input type="text" class="display-screen"/>
+            <input type="text" class="display-screen" id="displayScreen" />
             <div class="buttons-pad">
                 <div class="first-row">
-                    <button class="button">AC</button>
-                    <button>,</button>
-                    <button>%</button>
-                    <button>~</button>
+                    <button class="btn btn-bisque" id="ac">AC</button>
+                    <button class="btn" id="plusminus">+/-</button>
+                    <button class="btn" id="percent">%</button>
+                    <button class="btn" id="expo">~</button>
                 </div>
                 <div class="second-row">
-                    <button>7</button>
-                    <button>8</button>
-                    <button>9</button>
-                    <button>x</button>
+                    <button class="btn" id="seven">7</button>
+                    <button class="btn">8</button>
+                    <button class="btn">9</button>
+                    <button class="btn">x</button>
                 </div>
                 <div class="third-row">
-                    <button>4</button>
-                    <button>5</button>
-                    <button>6</button>
-                    <button>-</button>
+                    <button class="btn">4</button>
+                    <button class="btn">5</button>
+                    <button class="btn">6</button>
+                    <button class="btn">-</button>
                 </div>
                 <div class="fourth-row">
-                    <button>1</button>
-                    <button>2</button>
-                    <button>3</button>
-                    <button>+</button>
+                    <button class="btn">1</button>
+                    <button class="btn">2</button>
+                    <button class="btn">3</button>
+                    <button class="btn" id="plus">+</button>
                 </div>
                 <div class="fifth-row">
-                    <button class="zero-btn">0</button>
-                    <button class="equality-btn">=</button>
+                    <button class="btn zero-btn">0</button>
+                    <button class="btn equality-btn" id="equalTo">=</button>
                 </div>
             </div>    
         </div>
     </div>
+    <script src="app.js" ></script>
 </body>
 </html>
