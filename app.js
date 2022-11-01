@@ -5,6 +5,8 @@ const ac = document.getElementById("ac");
 const percent = document.getElementById("percent");
 const equalTo = document.getElementById("equalTo");
 const plus = document.getElementById("plus");
+const divide = document.getElementById("divide");
+const squareroot = document.getElementById("squareroot");
 
 
 const seven = document.getElementById("seven");
