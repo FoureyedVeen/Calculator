@@ -6,7 +6,8 @@ const percent = document.getElementById("percent");
 const equalTo = document.getElementById("equalTo");
 const plus = document.getElementById("plus");
 const divide = document.getElementById("divide");
-const squareroot = document.getElementById("squareroot");
+const squareRoot = document.getElementById("squareroot");
+const minus = document.getElementById("minus");
 
 
 const seven = document.getElementById("seven");
@@ -33,11 +34,46 @@ nine.addEventListener("click", function(){
     let currValue = displayScreen.value; 
     displayScreen.value += 9;
 });
+four.addEventListener("click", function(){
+    let currValue = displayScreen.value; 
+    displayScreen.value += 4;
+});
+
+five.addEventListener("click", function(){
+    let currValue = displayScreen.value; 
+    displayScreen.value += 5;
+});
+
+six.addEventListener("click", function(){
+    let currValue = displayScreen.value; 
+    displayScreen.value += 6;
+});
+
+one.addEventListener("click", function(){
+    let currValue = displayScreen.value; 
+    displayScreen.value += 1;
+});
+
+two.addEventListener("click", function(){
+    let currValue = displayScreen.value; 
+    displayScreen.value += 2;
+});
+
+three.addEventListener("click", function(){
+    let currValue = displayScreen.value; 
+    displayScreen.value += 3;
+});
 
 plus.addEventListener("click", function(){
     let currValue = displayScreen.value; 
     displayScreen.value += "+";
 });
+
+minus.addEventListener("click", function(){
+    let currValue = displayScreen.value; 
+    displayScreen.value -= "-";
+});
+
 
 
 equalTo.addEventListener("click", function(){
