@@ -74,8 +74,6 @@ minus.addEventListener("click", function(){
     displayScreen.value -= "-";
 });
 
-
-
 equalTo.addEventListener("click", function(){
     const result = eval(displayScreen.value);
     let currValue = displayScreen.value;
