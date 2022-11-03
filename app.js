@@ -80,3 +80,9 @@ equalTo.addEventListener("click", function(){
     displayScreen.value += "="+result;
     //console.log(result);
 });
+
+ac.addEventListener("click", function(){
+    let currValue = displayScreen.value;
+    displayScreen.value = "";
+}
+);
