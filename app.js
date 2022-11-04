@@ -1,5 +1,7 @@
 const displayScreen = document.getElementById("displayScreen");
 
+const endValue = 0
+
 //special functions
 const ac = document.getElementById("ac");
 const percent = document.getElementById("percent");
@@ -78,23 +80,31 @@ plus.addEventListener("click", function(){
 
 multiply.addEventListener("click", function(){
     let currValue = displayScreen.value; 
-    displayScreen.value *= "";
+    displayScreen.value += "*";
 });
 
 
 minus.addEventListener("click", function(){
     let currValue = displayScreen.value; 
-    displayScreen.value -= "-";
+    displayScreen.value += "-";
 });
 
 equalTo.addEventListener("click", function(){
-    const result = eval(displayScreen.value);
-    let currValue = displayScreen.value;
-    displayScreen.value += "="+result;
+    const totalEval = eval(displayScreen.value);
+    displayScreen.value = totalEval;
     //console.log(result);
 });
+
 
 ac.addEventListener("click", function(){
     let currValue = displayScreen.value;
     displayScreen.value = "";
 });
+
+squareRoot.addEventListener("click", function(){
+    const number = displayScreen.value;
+
+    const result = Math.sqrt(number);
+    displayScreen.value = result;   
+}
+);
