@@ -8,6 +8,7 @@ const plus = document.getElementById("plus");
 const divide = document.getElementById("divide");
 const squareRoot = document.getElementById("squareroot");
 const minus = document.getElementById("minus");
+const multiply = document.getElementById("multiply");
 
 
 const seven = document.getElementById("seven");
@@ -75,6 +76,12 @@ plus.addEventListener("click", function(){
     displayScreen.value += "+";
 });
 
+multiply.addEventListener("click", function(){
+    let currValue = displayScreen.value; 
+    displayScreen.value *= "";
+});
+
+
 minus.addEventListener("click", function(){
     let currValue = displayScreen.value; 
     displayScreen.value -= "-";
@@ -90,5 +97,4 @@ equalTo.addEventListener("click", function(){
 ac.addEventListener("click", function(){
     let currValue = displayScreen.value;
     displayScreen.value = "";
-}
-);
+});
