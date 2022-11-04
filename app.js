@@ -19,6 +19,12 @@ const six = document.getElementById("six");
 const one = document.getElementById("one");
 const two = document.getElementById("two");
 const three = document.getElementById("three");
+const zero = document.getElementById("zero");
+
+zero.addEventListener("click", function(){
+    let currValue = displayScreen.value; 
+    displayScreen.value += 0;
+});
 
 seven.addEventListener("click", function(){
     let currValue = displayScreen.value; 
