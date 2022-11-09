@@ -108,3 +108,8 @@ squareRoot.addEventListener("click", function(){
     displayScreen.value = result;   
 }
 );
+
+divide.addEventListener("click", function() {
+    let currValue = displayScreen.value;
+    displayScreen.value += "÷"
+});
