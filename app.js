@@ -12,66 +12,77 @@ const squareRoot = document.getElementById("squareroot");
 const minus = document.getElementById("minus");
 const multiply = document.getElementById("multiply");
 
+const numValue = document.getElementById("numValue");
 
-const seven = document.getElementById("seven");
-const eight = document.getElementById("eight");
-const nine = document.getElementById("nine");
-const four = document.getElementById("four");
-const five = document.getElementById("five");
-const six = document.getElementById("six");
-const one = document.getElementById("one");
-const two = document.getElementById("two");
-const three = document.getElementById("three");
-const zero = document.getElementById("zero");
+// const seven = document.getElementById("seven");
+// const eight = document.getElementById("eight");
+// const nine = document.getElementById("nine");
+// const four = document.getElementById("four");
+// const five = document.getElementById("five");
+// const six = document.getElementById("six");
+// const one = document.getElementById("one");
+// const two = document.getElementById("two");
+// const three = document.getElementById("three");
+// const zero = document.getElementById("zero");
 
-zero.addEventListener("click", function(){
-    let currValue = displayScreen.value; 
-    displayScreen.value += 0;
-});
+numValue.addEventListener("click", function(){
 
-seven.addEventListener("click", function(){
     let currValue = displayScreen.value; 
-    displayScreen.value += 7;
-});
 
-eight.addEventListener("click", function(){
-    let currValue = displayScreen.value; 
-    displayScreen.value += 8;
-});
+    displayScreen.value += numValue.value;
 
-nine.addEventListener("click", function(){
-    let currValue = displayScreen.value; 
-    displayScreen.value += 9;
 });
-four.addEventListener("click", function(){
-    let currValue = displayScreen.value; 
-    displayScreen.value += 4;
-});
+console.log(numValue);
 
-five.addEventListener("click", function(){
-    let currValue = displayScreen.value; 
-    displayScreen.value += 5;
-});
 
-six.addEventListener("click", function(){
-    let currValue = displayScreen.value; 
-    displayScreen.value += 6;
-});
+// zero.addEventListener("click", function(){
+//     let currValue = displayScreen.value; 
+//     displayScreen.value += 0;
+// });
 
-one.addEventListener("click", function(){
-    let currValue = displayScreen.value; 
-    displayScreen.value += 1;
-});
+// seven.addEventListener("click", function(){
+//     let currValue = displayScreen.value; 
+//     displayScreen.value += 7;
+// });
 
-two.addEventListener("click", function(){
-    let currValue = displayScreen.value; 
-    displayScreen.value += 2;
-});
+// eight.addEventListener("click", function(){
+//     let currValue = displayScreen.value; 
+//     displayScreen.value += 8;
+// });
 
-three.addEventListener("click", function(){
-    let currValue = displayScreen.value; 
-    displayScreen.value += 3;
-});
+// nine.addEventListener("click", function(){
+//     let currValue = displayScreen.value; 
+//     displayScreen.value += 9;
+// });
+// four.addEventListener("click", function(){
+//     let currValue = displayScreen.value; 
+//     displayScreen.value += 4;
+// });
+
+// five.addEventListener("click", function(){
+//     let currValue = displayScreen.value; 
+//     displayScreen.value += 5;
+// });
+
+// six.addEventListener("click", function(){
+//     let currValue = displayScreen.value; 
+//     displayScreen.value += 6;
+// });
+
+// one.addEventListener("click", function(){
+//     let currValue = displayScreen.value; 
+//     displayScreen.value += 1;
+// });
+
+// two.addEventListener("click", function(){
+//     let currValue = displayScreen.value; 
+//     displayScreen.value += 2;
+// });
+
+// three.addEventListener("click", function(){
+//     let currValue = displayScreen.value; 
+//     displayScreen.value += 3;
+// });
 
 plus.addEventListener("click", function(){
     let currValue = displayScreen.value; 
@@ -113,10 +124,3 @@ divide.addEventListener("click", function() {
     let currValue = displayScreen.value;
     displayScreen.value += "/"
 });
-
-// function () {
-//     const number = displayScreen.value;
-
-//     const result = Math.divide(number);
-//     displayScreen.value = result;
-// };
