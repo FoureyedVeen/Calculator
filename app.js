@@ -111,5 +111,12 @@ squareRoot.addEventListener("click", function(){
 
 divide.addEventListener("click", function() {
     let currValue = displayScreen.value;
-    displayScreen.value += "÷"
+    displayScreen.value += "/"
 });
+
+// function () {
+//     const number = displayScreen.value;
+
+//     const result = Math.divide(number);
+//     displayScreen.value = result;
+// };
